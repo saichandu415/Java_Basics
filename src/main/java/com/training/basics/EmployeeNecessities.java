@@ -1,4 +1,4 @@
-package com.training;
+package com.training.basics;
 
 public interface EmployeeNecessities {
     String getWorkTimings();
