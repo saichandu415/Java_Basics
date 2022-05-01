@@ -12,6 +12,9 @@ public class Animal {
     private int lifetime;
 
     public Animal() {
+        this.type = "Human";
+        this.weight = 60;
+        this.lifetime = 100;
     }
 
     public Animal(String type, int weight, int lifetime) {
@@ -28,25 +31,25 @@ public class Animal {
     }
 
     // Setters
-    public void setType(String type) {
-        this.type = type;
-    }
+//    public void setType(String type) {
+//        this.type = type;
+//    }
 
     public int getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
+//    public void setWeight(int weight) {
+//        this.weight = weight;
+//    }
 
     public int getLifetime() {
         return lifetime;
     }
 
-    public void setLifetime(int lifetime) {
-        this.lifetime = lifetime;
-    }
+//    public void setLifetime(int lifetime) {
+//        this.lifetime = lifetime;
+//    }
 
     @Override
     public String toString() {

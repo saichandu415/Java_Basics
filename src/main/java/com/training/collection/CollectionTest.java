@@ -15,12 +15,56 @@ public class CollectionTest {
 
     public static void main(String[] args) {
 
-        testQueue();
+        testMap();
 
     }
 
     public static void testMap(){
+        /*
+        * 1 Sai
+        * 2 Sarath
+        * 3 Chandra
+        * 4 Raju
+        * 5 Mahesh
+        * */
 
+        /*
+        Map<Integer, String> empDB = new HashMap<>();
+
+        empDB.put(1, "Sai");
+        empDB.put(5, "Sarath");
+        empDB.put(3, "Chandra");
+        empDB.put(2, "Sai");
+        empDB.put(4, "Mahesh");
+
+        System.out.println(empDB);
+
+        System.out.println(empDB.get(2));
+        */
+
+        /*Map<Integer, String> empDB = new LinkedHashMap<>();
+
+        empDB.put(1, "Sai");
+        empDB.put(5, "Sarath");
+        empDB.put(3, "Chandra");
+        empDB.put(2, "Sai");
+        empDB.put(4, "Mahesh");
+
+        System.out.println(empDB);
+
+        System.out.println(empDB.get(2));*/
+
+        Map<Integer, String> empDB = new TreeMap<>();
+
+        empDB.put(1, "Sai");
+        empDB.put(5, "Sarath");
+        empDB.put(3, "Chandra");
+        empDB.put(2, "Sai");
+        empDB.put(4, "Mahesh");
+
+        System.out.println(empDB);
+
+        System.out.println(empDB.get(2));
     }
 
     public static void testQueue(){
