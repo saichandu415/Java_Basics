@@ -4,11 +4,11 @@ public class Human extends Animal{
 
     private boolean canTalk;
 
-    public Human() {
-        super.setType("human");
-        super.setWeight(2);
-        super.setLifetime(100);
-    }
+//    public Human() {
+//        super.setType("human");
+//        super.setWeight(2);
+//        super.setLifetime(100);
+//    }
 
     public boolean isCanTalk() {
         return canTalk;
